@@ -3,7 +3,7 @@
     "line": 1,
     "elements": [
       {
-        "start_timestamp": "2022-03-01T21:08:54.110Z",
+        "start_timestamp": "2022-03-01T21:43:58.223Z",
         "line": 7,
         "name": "Obter posts",
         "description": "",
@@ -13,7 +13,7 @@
         "steps": [
           {
             "result": {
-              "duration": 5687245,
+              "duration": 4685535,
               "status": "passed"
             },
             "line": 8,
@@ -25,7 +25,7 @@
           },
           {
             "result": {
-              "duration": 3921877981,
+              "duration": 3508038609,
               "status": "passed"
             },
             "line": 9,
@@ -37,7 +37,7 @@
           },
           {
             "result": {
-              "duration": 1050185231,
+              "duration": 1137844488,
               "status": "passed"
             },
             "line": 10,
