@@ -1,0 +1,65 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2022-03-01T21:08:54.110Z",
+        "line": 7,
+        "name": "Obter posts",
+        "description": "",
+        "id": "metodos-de-exemplos-utilizando-biblioteca-typicode;obter-posts",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 5687245,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "que eu envio a url para obter posts",
+            "match": {
+              "location": "steps.HistoriaBackStep.queEuEnvioAUrlParaObterPosts()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3921877981,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "eu envio um post para consultar",
+            "match": {
+              "location": "steps.HistoriaBackStep.euEnvioUmPostParaConsultar()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1050185231,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "eu vejo na resposta as informações do post consultado",
+            "match": {
+              "location": "steps.HistoriaBackStep.euVejoNaRespostaAsInformaçõesDoPostConsultado()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@back"
+          }
+        ]
+      }
+    ],
+    "name": "Metodos de exemplos utilizando biblioteca typicode",
+    "description": "  Eu como .....\n  Quero ....\n  Para ....",
+    "id": "metodos-de-exemplos-utilizando-biblioteca-typicode",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/historiaBack.feature",
+    "tags": []
+  }
+]

@@ -1,0 +1,11 @@
+steps/ComunStep.class
+pages/ComunBackPage.class
+pages/HistoriaFrontPage.class
+steps/HistoriaFrontStep.class
+apiTest/apiExamplesTest.class
+pages/HistoriaBackPage.class
+model/Post.class
+pages/ComunFrontPage.class
+steps/HistoriaBackStep.class
+initializar/RunnerTest.class
+initializar/ClassInit.class

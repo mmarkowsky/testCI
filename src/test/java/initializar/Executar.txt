@@ -1,0 +1,11 @@
+//Cucumber
+mvn compile
+mvn install
+mvn clean install
+mvn test
+mvn test -Dcucumber.options="--tags @tag Name"
+mvn test -Dcucumber.options="src/test/resources/functionalTests/End2End_Tests.feature"
+mvn test -Dserver.port=9000 -Dserver.host=http://example.com
+
+
+
