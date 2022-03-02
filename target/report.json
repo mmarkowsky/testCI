@@ -3,7 +3,7 @@
     "line": 1,
     "elements": [
       {
-        "start_timestamp": "2022-03-02T01:32:21.856Z",
+        "start_timestamp": "2022-03-02T02:21:08.817Z",
         "line": 13,
         "name": "Obter posts enviando tabla",
         "description": "",
@@ -13,7 +13,7 @@
         "steps": [
           {
             "result": {
-              "duration": 4839000,
+              "duration": 4744074,
               "status": "passed"
             },
             "line": 14,
@@ -25,7 +25,7 @@
           },
           {
             "result": {
-              "duration": 3032892000,
+              "duration": 3015085848,
               "status": "passed"
             },
             "line": 15,
@@ -37,13 +37,13 @@
           },
           {
             "result": {
-              "duration": 4024000,
+              "duration": 5013283,
               "status": "passed"
             },
             "line": 16,
             "name": "eu vejo na resposta as informações Title , Body, UserId  do post consultado",
             "match": {
-              "location": "steps.HistoriaBackStep.euVejoNaRespostaAsInformaçõesTitleBodyUserIdDoPostConsultado(io.cucumber.datatable.DataTable)"
+              "location": "steps.HistoriaBackStep.euVejoNaRespostaAsInformacoesTitleBodyUserIdDoPostConsultado(io.cucumber.datatable.DataTable)"
             },
             "rows": [
               {
