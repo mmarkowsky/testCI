@@ -43,7 +43,7 @@ formatter.step({
   "keyword": "Then "
 });
 formatter.match({
-  "location": "steps.HistoriaBackStep.euVejoNaRespostaAsInformaçõesTitleBodyUserIdDoPostConsultado(io.cucumber.datatable.DataTable)"
+  "location": "steps.HistoriaBackStep.euVejoNaRespostaAsInformacoesTitleBodyUserIdDoPostConsultado(io.cucumber.datatable.DataTable)"
 });
 formatter.result({
   "status": "passed"
