@@ -3,20 +3,20 @@
     "line": 1,
     "elements": [
       {
-        "start_timestamp": "2022-03-01T21:43:58.223Z",
-        "line": 7,
-        "name": "Obter posts",
+        "start_timestamp": "2022-03-02T01:32:21.856Z",
+        "line": 13,
+        "name": "Obter posts enviando tabla",
         "description": "",
-        "id": "metodos-de-exemplos-utilizando-biblioteca-typicode;obter-posts",
+        "id": "metodos-de-exemplos-utilizando-biblioteca-typicode;obter-posts-enviando-tabla",
         "type": "scenario",
         "keyword": "Scenario",
         "steps": [
           {
             "result": {
-              "duration": 4685535,
+              "duration": 4839000,
               "status": "passed"
             },
-            "line": 8,
+            "line": 14,
             "name": "que eu envio a url para obter posts",
             "match": {
               "location": "steps.HistoriaBackStep.queEuEnvioAUrlParaObterPosts()"
@@ -25,10 +25,10 @@
           },
           {
             "result": {
-              "duration": 3508038609,
+              "duration": 3032892000,
               "status": "passed"
             },
-            "line": 9,
+            "line": 15,
             "name": "eu envio um post para consultar",
             "match": {
               "location": "steps.HistoriaBackStep.euEnvioUmPostParaConsultar()"
@@ -37,14 +37,30 @@
           },
           {
             "result": {
-              "duration": 1137844488,
+              "duration": 4024000,
               "status": "passed"
             },
-            "line": 10,
-            "name": "eu vejo na resposta as informações do post consultado",
+            "line": 16,
+            "name": "eu vejo na resposta as informações Title , Body, UserId  do post consultado",
             "match": {
-              "location": "steps.HistoriaBackStep.euVejoNaRespostaAsInformaçõesDoPostConsultado()"
+              "location": "steps.HistoriaBackStep.euVejoNaRespostaAsInformaçõesTitleBodyUserIdDoPostConsultado(io.cucumber.datatable.DataTable)"
             },
+            "rows": [
+              {
+                "cells": [
+                  "titulo",
+                  "comentario",
+                  "userId"
+                ]
+              },
+              {
+                "cells": [
+                  "\"Testando Titulo\"",
+                  "\"Testando\"",
+                  "\"12\""
+                ]
+              }
+            ],
             "keyword": "Then "
           }
         ],

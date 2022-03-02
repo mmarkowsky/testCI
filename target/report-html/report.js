@@ -5,7 +5,7 @@ formatter.feature({
   "keyword": "Feature"
 });
 formatter.scenario({
-  "name": "Obter posts",
+  "name": "Obter posts enviando tabla",
   "description": "",
   "keyword": "Scenario",
   "tags": [
@@ -35,11 +35,15 @@ formatter.result({
   "status": "passed"
 });
 formatter.step({
-  "name": "eu vejo na resposta as informações do post consultado",
+  "name": "eu vejo na resposta as informações Title , Body, UserId  do post consultado",
+  "rows": [
+    {},
+    {}
+  ],
   "keyword": "Then "
 });
 formatter.match({
-  "location": "steps.HistoriaBackStep.euVejoNaRespostaAsInformaçõesDoPostConsultado()"
+  "location": "steps.HistoriaBackStep.euVejoNaRespostaAsInformaçõesTitleBodyUserIdDoPostConsultado(io.cucumber.datatable.DataTable)"
 });
 formatter.result({
   "status": "passed"

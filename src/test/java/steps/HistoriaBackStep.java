@@ -1,5 +1,6 @@
 package steps;
 
+import io.cucumber.datatable.DataTable;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
@@ -20,7 +21,12 @@ public class HistoriaBackStep {
     }
 
     @Then("eu vejo na resposta as informações do post consultado")
-    public void euVejoNaRespostaAsInformaçõesDoPostConsultado() {
+    public void euVejoNaRespostaAsInformacoesDoPostConsultado() {
         historiaBackPage.verificarInformacoesPost();
+    }
+
+    @Then("eu vejo na resposta as informações Title , Body, UserId  do post consultado")
+    public void euVejoNaRespostaAsInformacoesTitleBodyUserIdDoPostConsultado(DataTable table) {
+        historiaBackPage.verificarInformacoesPostTable(table);
     }
 }

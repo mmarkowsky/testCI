@@ -1,7 +1,10 @@
 package pages;
 
+import io.cucumber.datatable.DataTable;
 import io.restassured.response.Response;
+import model.Post;
 
+import java.util.ArrayList;
 import java.util.List;
 
 import static org.hamcrest.CoreMatchers.equalTo;
@@ -28,5 +31,13 @@ public class HistoriaBackPage {
             assertEquals(postId, "3");
         }
         assertThat(body.size(), equalTo(5));
+    }
+
+    public void verificarInformacoesPostTable(DataTable table){
+        List<List<String>> data = table.asLists(String.class);
+        Post post = new Post();
+        for (List<String> columns : data) {
+            System.out.println(columns.get(2));
+        }
     }
 }
